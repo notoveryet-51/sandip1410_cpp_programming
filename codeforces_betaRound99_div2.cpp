@@ -1,4 +1,4 @@
-/*The program is the solution of codeforces problem no. A of codeforces beta round 99 (div 2)
+/*The program is the solution of codeforces problem no. 139A
 Name: Sandipan Ray
 Regn no.: 2025CA085
 Program Date: 26-10-2025    */
