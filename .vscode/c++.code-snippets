@@ -10,8 +10,8 @@
 		
 		"prefix": "cppmain",
 		"body": [
-			"#include <iostream>\n",
-			"using namespace std;",
+			"#include <bits/stdc++.h>",
+			"using namespace std\n;",
 			"int main () {\n",
 			"    return 0;",
 			"}"
