@@ -11,7 +11,7 @@
 		"prefix": "cppmain",
 		"body": [
 			"#include <bits/stdc++.h>",
-			"using namespace std\n;",
+			"using namespace std;\n",
 			"int main () {\n",
 			"    return 0;",
 			"}"
