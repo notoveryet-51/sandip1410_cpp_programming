@@ -1,3 +1,8 @@
+/*The program is the solution of codeforces problem no. 282A
+Name: Sandipan Ray
+Regn no.: 2025CA085
+Program Date: 24-10-2025    */
+
 #include <iostream>
 #include <string>
 using namespace std;
