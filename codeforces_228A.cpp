@@ -9,6 +9,7 @@ using namespace std;
 int main () {
     int arr[4],count=0;
     for (int n=0; n<4; n++) cin >> arr[n];
+    sort(arr,arr+4);
     for (int i=0; i<3; i++) {
         if (arr[i]==arr[i+1])
             count++;
