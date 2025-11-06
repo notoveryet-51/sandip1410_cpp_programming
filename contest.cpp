@@ -1,3 +1,5 @@
+//brute force approach codeforces 2164B
+
 #include <bits/stdc++.h>
 using namespace std;
 
