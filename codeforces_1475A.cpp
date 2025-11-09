@@ -13,7 +13,7 @@ int main () {
         int flag=0;
         long long n;
         cin >> n;
-        if (n>0 && (n&(n-1))==0) cout << "NO" <<endl; //
+        if (n>0 && (n&(n-1))==0) cout << "NO" <<endl; // bit wise and of the given number and just its preceeding number if becomes 0 , the number is power of 2
         else cout << "YES" << endl;
     }
     return 0;
