@@ -1,3 +1,8 @@
+// pattern printing challenge
+//Date: 12-11-2025
+// Name: Sandipan Ray
+// MNNIT Allahabad
+
 #include <bits/stdc++.h>
 using namespace std;
 
