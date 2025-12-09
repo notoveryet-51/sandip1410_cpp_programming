@@ -1,3 +1,9 @@
+/*The program is the solution of codeforces problem no. 1828B
+Name: Sandipan Ray
+Regn no.: 2025CA085
+Program Date: 09-12-2025    */
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
