@@ -21,6 +21,11 @@
         "editorGroupHeader.tabsBorder": "#00FFFF",
         "editorGroupHeader.border": "#00FFFF",
 
+        // ⭐ NEW → Vertical border between tabs
+        "tab.border": "#00FFFF",
+        "tab.activeBackground": "#011627",
+        "tab.inactiveBackground": "#011627",
+
         // ---- Editor Group Borders ----
         "editorGroup.border": "#00FFFF",
         "editorGroup.focusedEmptyBorder": "#00FFFF",
@@ -30,9 +35,17 @@
         "panel.border": "#00FFFF",
         "panel.title.activeBorder": "#00FFFF",
         "panelInput.border": "#00FFFF",
-        "sideBar.border": "#00FFFF",
+
+        // ⭐ Border below the word "EXPLORER"
         "sideBarSectionHeader.border": "#00FFFF",
 
+        // ⭐ FULL EXPLORER BORDER FIX
+        "sideBarContainer.border": "#00FFFF",      // MAIN Explorer box border
+        "sideBar.border": "#00FFFF",               // fallback border
+        "sideBar.background": "#011627",
+        "sideBar.foreground": "#FFFFFF",
+        "sideBar.dropBorder": "#00FFFF",
+        "sideBarTitle.foreground": "#00FFFF",
 
         // ---- Activity Bar ----
         "activityBar.border": "#00FFFF",
@@ -50,7 +63,7 @@
         "editor.findMatchHighlightBorder": "#00FFFF",
         "editor.rangeHighlightBorder": "#00FFFF",
         "editor.lineHighlightBackground": "#00000000",
-        "editor.lineHighlightBorder": "#C400FF",
+        "editor.lineHighlightBorder": "#ec7632",
 
         // ---- Menus, Lists, Inputs ----
         "menu.border": "#00FFFF",
@@ -70,6 +83,12 @@
 
         // ---- Terminal ----
         "terminal.border": "#00FFFF",
+
+        // ⭐ Border below terminal options bar
+        "panelTitle.border": "#00FFFF",
+        "terminal.tab.activeBorder": "#00FFFF",
+        "terminal.tab.hoverBorder": "#00FFFF",
+        "terminal.dropBorder": "#00FFFF",
 
         // ---- Welcome Page ----
         "welcomePage.tileBorder": "#00FFFF"
