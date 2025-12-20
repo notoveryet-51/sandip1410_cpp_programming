@@ -63,7 +63,7 @@
         "editor.findMatchHighlightBorder": "#00FFFF",
         "editor.rangeHighlightBorder": "#00FFFF",
         "editor.lineHighlightBackground": "#00000000",
-        "editor.lineHighlightBorder": "#ec7632",
+        "editor.lineHighlightBorder": "#c9d24b",
 
         // ---- Menus, Lists, Inputs ----
         "menu.border": "#00FFFF",
