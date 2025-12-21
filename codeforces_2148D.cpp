@@ -1,4 +1,4 @@
-/*The program is the solution of codeforces problem no. 1788A
+/*The program is the solution of codeforces problem no. 2148D
 Regn no.: 2025CA085
 Program Date: 21-12-2025    */
 
@@ -95,24 +95,36 @@ void print(const vector<T>& v) { for (const auto& x : v) cout << x << ' '; cout 
 
 /* ---------- Solve ---------- */
 void solve() {
-    ll a;
-    cin >> a;
-    vi v(a);
-    read(v);
-    for (int k=1; k<=a; k++) {
-        int count1=0,count2=0;
-        for (int i=0; i<k; i++) {
-            if (v[i]==2)    count1++;
+    ll n;
+    cin >>n;
+    vll vec(n);
+    read(vec);
+    vll odd;
+    ll even_sum=0,odd_sum=0;
+    for(auto it: vec) {
+        if (it%2==0)    {
+            even_sum+=it;
         }
-        for (int i=k; i<a; i++) {
-            if (v[i]==2)    count2++;
-        }
-        if (count1==count2) {
-            cout << k << endl;
-            return;
+        else {
+            odd.push_back(it);
+            odd_sum+=it;
         }
     }
-    cout << -1<< endl;
+    ll odd_count=odd.size();
+    sort(odd.begin(),odd.end());
+    if (odd_count==0)   {
+        cout<<0<<endl;
+        return;
+    }
+    else {
+        ll k = (odd_count + 1) / 2;
+        ll odd_temp = 0;
+        for (int i = odd_count - k; i < odd_count; i++) {
+            odd_temp += odd[i];
+        }
+        cout << even_sum+odd_temp<< endl;
+        return;
+    }
 }
 
 /* ---------- Main ---------- */
