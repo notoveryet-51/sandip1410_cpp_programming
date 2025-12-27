@@ -1,6 +1,6 @@
-/*The program is the solution of problem
+/*The program is the solution of codeforces problem no. 2180A
 Regn no.: 2025CA085
-Program Date: --    */
+Program Date: 27-12-2025    */
 
 /**
  *  ███████╗ █████╗ ███╗   ██╗██████╗ ██╗██████╗  █████╗ ███╗   ██╗
